@@ -57,8 +57,11 @@ body {
 /* HEADER */
 .header-background {
     background-image: linear-gradient(rgba(255, 129, 119, 0.5), rgba(169, 38, 230, 0.8)), url("https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
     border-bottom: 10px solid transparent;
     border-image: url(/assets/imgs/Border-BG.jpg) 30 round;
+
 
 }
 header {
