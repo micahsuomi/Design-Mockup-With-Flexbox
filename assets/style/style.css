@@ -554,6 +554,10 @@ footer {
 .item-paragraph-lorem::after {
     border-bottom: 1px solid var(--grey-light);
     margin-top: 1rem;
+    content: "";
+    width: 13em;
+    display: block;
+    opacity: .5;
 }
 
 .flickr__item-box__wrapper {
